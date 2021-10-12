@@ -1,0 +1,445 @@
+/* Layout */
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;   
+}
+
+body
+{
+    font-family: Helvetica;
+}
+
+/* Navigation start */
+/* Navbar bootstrap */
+.navbar
+{
+    background-color: #00c99f;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prf
+{
+    background-color: #00c99f;
+    color: #000000;
+    padding: 9.5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown start */
+.dropbtn {
+    background-color: #00c99f;
+    color: #000000;
+    padding: 9.5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00976d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    line-height: 16px;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #00976d;
+  }
+  /* Dropdown end */
+
+
+  /* MODAL START */
+
+/* Do not change */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeMBtn
+{
+  background-color: #00c99f;
+  color: #000000;
+  padding: 9.5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.closeMBtn:hover
+{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #00976d;
+}
+
+.myBtn
+{
+  background-color: #00c99f;
+  color: #000000;
+  padding: 9.5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.myBtn:hover{
+  background-color: #00976d;
+}
+/* STOP */
+
+
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #ffffff;
+    margin: auto;
+    height: 350px;
+    width: 50%;
+    padding: 0;
+    border: 10px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #00a782;
+    color: #ffffff;
+    height: 50px;
+  }
+
+  .modal-body 
+  {
+    padding: 2px 16px;
+    overflow: auto;
+  }
+
+.modal-body img
+{
+  width: 40px;
+  height: 40px;
+}
+
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #ffffff;
+    color: white;
+  }
+
+.mbHead
+{
+  float: left;
+  padding-right: 20px;
+  line-height: 60px;
+}
+
+.mbHead a
+{
+  text-decoration: none;
+  color: #000000;
+}
+/* Navigation End */
+
+/* Carousel and widget start */
+.carousel
+{
+    margin: 50px;
+    margin-top: 125px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.widget-container
+{
+    background-image: linear-gradient(#ffb45f, #ffdc87);
+}
+
+.flex-container 
+{
+    display: flex;
+    justify-content: space-around;
+}
+  
+.flex-container > div 
+{
+    width: 150px;
+    margin: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 2s;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.parf
+{
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 13px;
+}
+
+.flex-container div a:hover
+{
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 60px 20px rgba(0, 0, 0, 0.2);
+}
+
+.lineW
+{
+    border-top: 1px solid #000000;
+}
+/* Carousel and widget end */
+
+
+/* LPLM start */
+.card
+{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-left: 30px;
+    overflow: auto;
+}
+
+.card .card-header
+{
+    background-color: #00c99f;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.module-container
+{
+    background-color: white;
+    margin: 50px;
+}
+/* LPLM end */
+
+
+
+/* Share-Q start */
+
+/* .share-container
+{
+    margin: 50px;
+} */
+
+.share-header
+{
+    background-color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+}
+
+.share-body-1
+{
+    background-color: #ffffff;
+    background:rgba(255, 255, 255, 0.7);
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+}
+
+.share-body-1 > div
+{
+    width: 150px;
+    margin: 30px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.share-body-1 > div a:hover
+{
+    box-shadow: 0px 22px 0px 85px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.share-body-2
+{
+    background-color: #ffffff;
+    background:rgba(255, 255, 255, 0.7);
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+}
+
+.share-body-2 > div
+{
+    width: 150px;
+    margin: 30px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.share-body-2 > div a:hover
+{
+  box-shadow: 0px 22px 0px 85px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.share-content
+{
+    background-color: #00c99f;
+}
+
+
+.top-share
+{
+    background-color: #00c99f;
+    color: #00c99f;
+    height: 100px;
+}
+
+.bot-share
+{
+    background-color: #00c99f;
+    color: #00c99f;
+    height: 100px;
+}
+
+
+/* Share-Q end */
+
+
+/* bot start */
+.bottom
+{
+    background-color: #00976d;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bottom > div
+{
+    text-align: center;
+    font-weight: bold;
+    line-height: 160px;
+}
+/* bot end */
+
+/* Dropdown start */
+.dropbtn {
+    background-color: #00c99f;
+    color: #000000;
+    padding: 9.5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00976d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    line-height: 16px;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #00976d;
+  }
+  /* Dropdown end */
+
+

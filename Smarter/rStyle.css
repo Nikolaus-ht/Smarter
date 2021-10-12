@@ -1,0 +1,399 @@
+/* Layout */
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;   
+}
+
+body
+{
+    font-family: Helvetica;
+}
+
+/* Navigation start */
+/* Navbar bootstrap */
+.navbar
+{
+    background-color: #00c99f;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prf
+{
+    background-color: #00c99f;
+    color: #000000;
+    padding: 9.5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown start */
+.dropbtn {
+    background-color: #00c99f;
+    color: #000000;
+    padding: 9.5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00976d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    line-height: 16px;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #00976d;
+  }
+  /* Dropdown end */
+
+
+  /* MODAL START */
+
+/* Do not change */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeMBtn
+{
+  background-color: #00c99f;
+  color: #000000;
+  padding: 9.5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.closeMBtn:hover
+{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #00976d;
+}
+
+.myBtn
+{
+  background-color: #00c99f;
+  color: #000000;
+  padding: 9.5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.myBtn:hover{
+  background-color: #00976d;
+}
+/* STOP */
+
+
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #ffffff;
+    margin: auto;
+    height: 350px;
+    width: 50%;
+    padding: 0;
+    border: 10px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #00a782;
+    color: #ffffff;
+    height: 50px;
+  }
+
+  .modal-body 
+  {
+    padding: 2px 16px;
+    overflow: auto;
+  }
+
+.modal-body img
+{
+  width: 40px;
+  height: 40px;
+}
+
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #ffffff;
+    color: white;
+  }
+
+.mbHead
+{
+  float: left;
+  padding-right: 20px;
+  line-height: 60px;
+}
+
+.mbHead a
+{
+  text-decoration: none;
+  color: #000000;
+}
+/* Navigation End */
+
+/* bot start */
+.bottom
+{
+    background-color: #00976d;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bottom > div
+{
+    text-align: center;
+    font-weight: bold;
+    line-height: 160px;
+}
+/* bot end */
+
+
+
+/* Cont Start */
+.R-bg
+{
+  background-image: linear-gradient(90deg,  #ffaa00, #ff6315);;
+    /* margin: 30px; */
+    /* border: 10px solid black; */
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+ 
+.R-cont
+{
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    padding: 5px;
+    margin-top: 85px;
+    /* box-shadow: 0px 0px 7px 10px rgba(0, 0, 0, 0.048); */
+}
+
+.First
+{
+    text-align: center;
+    margin: 0px auto;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    width: 800px;
+    /* padding: 10px; */
+}
+
+.btn-Submit
+{
+  margin-left: 5px;
+  width: 180px;
+  height: 30px;
+  background-color: rgb(0, 158, 197);
+  border: none;
+  border-radius: 5px;  
+  color: white;
+  
+}
+
+.btn-Submit:hover
+{
+  background-color: rgb(0, 182, 228);
+}
+
+.btn-Clear
+{
+  margin-left: 5px;
+  width: 180px;
+  height: 30px;
+  background-color: rgb(197, 0, 0);
+  border: none;
+  border-radius: 5px;  
+  color: white;
+}
+
+.btn-Clear:hover
+{
+  background-color: rgb(233, 0, 0);
+}
+
+.lineB
+{
+  border: 3px solid #000000;
+  margin-top: 15px;
+  height: 3px;
+  background: #000000;
+  border-radius: 1000px;
+}
+
+.second
+{
+  text-align: center;
+  width: 450px;
+  height: 250px;
+  line-height: 10px;
+  /* padding: 10px; */
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-weight: bold;
+  /* overflow: auto; */
+  margin-bottom: 40px;
+}
+
+.data
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.DRL
+{
+  width: 170px;
+  height: 60px;
+  border: 2px solid #00a782;
+  background: #00a782;
+  color: #ffffff;
+  border-radius: 7px;
+  margin-top: 65px;
+  line-height: 15px;
+  /* text-decoration: underline; */
+}
+ 
+.DRL:hover
+{
+  color: #00a782;
+  background: #ffffff;
+}
+
+.LG
+{
+  margin: 10px;
+  width: 140px;
+  height: 60px;
+  border: 2px solid #00a782;
+  background: #00a782;
+  color: #ffffff;
+  border-radius: 7px;
+  margin-top: 35px;
+  line-height: 18px;
+  /* text-decoration: underline; */
+}
+ 
+.LG:hover
+{
+  color: #00a782;
+  background: #ffffff;
+}
+
+.DRL2
+{
+  margin: 10px;
+  width: 170px;
+  height: 60px;
+  border: 2px solid #00a782;
+  background: #00a782;
+  color: #ffffff;
+  border-radius: 7px;
+  margin-top: 20px;
+  line-height: 15px;
+  /* text-decoration: underline; */
+}
+ 
+.DRL2:hover
+{
+  color: #00a782;
+  background: #ffffff;
+}
+
+.RPTH
+{
+  background-color: #00614c;
+  border-radius: 9px 9px 0px 0px;
+  color: #ffffff;
+  /* padding: 10px; */
+}
+
+.hCT
+{
+  margin: 10px;
+}
+
+.second h6
+{
+  font-size: 17px;
+}
+
+
+/* Cont End */

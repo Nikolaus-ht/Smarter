@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>BNI Smarter</title>
+</head>
+<body>
+    <!-- Navigation S -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="Asset/BNISLOGO.png" style="width: 60px; height: 55px; margin: 5px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li><div class="dropdown">
+              <button class="dropbtn">MENU</button>
+              <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="#">Presensi</a>
+                <a href="#">Execution Culture</a>
+                <a href="WA.html">Weekly Activity</a>
+                <a href="PB.html">Public Training</a>
+                <a href="#">Learning Marketplace</a>
+                <a href="#">Calender of Learning Event</a>
+                <a href="#">Report</a>
+              </div>
+            </div>
+          </li>
+          
+          <!-- MODAL -->
+          <li><!-- Trigger/Open The Modal -->
+              <button class="myBtn">LeVA</button>
+              
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+              <div class="modal-lg" style="width: 560px; margin: auto;">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2>LeVA</h2>
+                    <span class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                      <p>Learner's Virtual Assistant (LeVA) merupakan tools yang berbasis internet untuk mendukung dan mempermudah BNI Hi-Movers dalam belajar dengan berinteraksi dengan robot melalui smartphone. 
+                          <br> Harap unduh aplikasi BNI Call pada <a href="https://play.google.com/store/apps/details?id=id.co.bni.bnicall&hl=in" style="color: #00614c; font-weight: bold;"> Play Store</a> atau 
+                      <a href="https://apps.apple.com/id/app/bni-call/id1434688646" style="color: #00614c; font-weight: bold;">App Store</a> dan lakukan registrasi menggunakan e-mail BNI.</p>
+                      <a href="https://drive.google.com/drive/folders/1iV_fc7nFlEzCzsju2Te0FZHzHcyhixao" style="font-weight:bold; color: #000000;">Juknis LeVA</a> <br>
+                      <a href="https://drive.google.com/drive/folders/1iV_fc7nFlEzCzsju2Te0FZHzHcyhixao" style="font-weight:bold; color: #000000;">Video & Materi LeVA</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </li>
+          <!-- MODAL -->
+      
+              <!-- MODAL -->
+              <li><!-- Trigger/Open The Modal -->
+                  <button class="myBtn">NOTIFICATION</button>
+                  
+                  <!-- The Modal -->
+                  <div id="myModalNotif" class="modal">
+                  <div class="modal-lgNotif" style="margin: auto; width: 800px;">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2>Notification</h2>
+                        <span class="close">×</span>
+                      </div>
+                      <hr style="border: 3px solid #000000; margin: 0px;">
+                      <div class="modal-body">
+                        <ul>
+                          <li>list1</li><hr>
+                          <li>list2</li><hr>
+                          <li>list3</li><hr>
+                          <li>list4</li><hr>
+                          <li>list5</li><hr>
+                          <li>list6</li><hr>
+                          <li>list7</li><hr>
+                          <li>list8</li><hr>
+                          <li>list9</li><hr>
+                          <li>list10</li><hr>
+                          <li>list11</li><hr>
+                          <li>list12</li><hr>
+                          <li>list13</li><hr>
+                          <li>list14</li><hr>
+                          <li>list15</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button class="closeMBtn">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </li>
+                <!-- MODAL -->
+      
+               <!-- MODAL -->
+              <li><!-- Trigger/Open The Modal -->
+                  <button class="myBtn">CONTACT</button>
+                  
+                  <!-- The Modal -->
+                  <div id="myModalCtn" class="modal">
+                    <div class="modal-lgCtn" style="margin: auto; width: 650px;">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2>Contact Us</h2>
+                        <span class="close">×</span>
+                      </div>
+                      <hr style="border: 3px solid #000000; margin: 0px;">
+                      <div class="modal-body">
+                        <div class="mbHead">
+                        <a href="#"><img src="Asset/ctn/email.png"></a>
+                        <a href="#">Email</a>
+                        
+                        <a href="https://web.facebook.com/BNI-Corporate-University-1802171903331161/?_rdc=1&_rdr" style="margin-left: 160px;"><img src="Asset/ctn/face.png"></a>
+                        <a href="https://web.facebook.com/BNI-Corporate-University-1802171903331161/?_rdc=1&_rdr">BNI Corporate University</a><br>
+                        
+                        <a href="https://www.instagram.com/bni.corpu/"><img src="Asset/ctn/ig.png"></a>
+                        <a href="https://www.instagram.com/bni.corpu/">bni.corpu</a>
+                        
+                        <a href="https://www.youtube.com/channel/UCwfTShJ3mGNOPBFwBYCYhDw"  style="margin-left: 130px;"><img src="Asset/ctn/yt.png"></a>
+                        <a href="https://www.youtube.com/channel/UCwfTShJ3mGNOPBFwBYCYhDw">BNI Corporate University</a><br>
+                        
+                        <a href="https://twitter.com/bni_corpu"><img src="Asset/ctn/twt.png"></a>
+                        <a href="https://twitter.com/bni_corpu">@BNI_CorpU</a>
+                      </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button class="closeMBtn">Close</button>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </li>
+                <!-- MODAL -->
+      
+      
+          </ul>
+        </div>
+        <select name="Program" id="LM" style="margin-right: 20px; width: 200px; height: 37px;">
+          <option selected value="AllMed">All Media</option>
+          <option value="Book">Book</option>
+          <option value="E-Book">E-Book</option>
+          <option value="Module">Module</option>
+          <option value="Video">Video</option>
+      </select>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" style="margin-right: 10px;">
+        </form>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="Asset/icon/sBtn.png"></button>
+        <button class="prf" type="submit"><img src="Asset/PDDEF.png" style="width: 55px; height: 55px;"></button>
+    </nav>
+    <!-- Navigation E -->
+
+    <!-- Cont -->
+    <div class="R-bg">
+        <div class="R-cont" style="margin-left: 10px; margin-right: 10px;">
+          <div class="RTitle">
+            <h4 style="font-weight: bold; margin-top: 10px; text-align: center;">REPORT</h4>
+            <hr>
+          </div>
+
+              <div class="First">
+              <form action="#">
+              <div class="RPTH">
+                <h5 style="font-weight: bold; padding: 10px;">Report Post Test</h5>
+                <!-- <hr> -->
+              </div>
+              <div class="hCT">
+                <label for="fname">Learning Program</label>
+                <input type="text" id="fname" name="fname" style="width: 700px; height: 30px;  border-radius: 3px; border: 1px solid #000000;"  ><br><br>
+                <label for="lname">Model Type</label>
+                <select name="Program" id="LM" style="width: 700px; height: 30px; border-radius: 3px; border: 1px solid #000000;">
+                    <option selected value="Model">Pilih</option>
+                    <option value="Rekap">Rekap</option>
+                    <option value="DD">Data Detail</option>
+                </select>
+                <br><br>
+                <button class="btn-Submit">SUBMIT</button>
+                <button class="btn-Clear">CLEAR</button>
+                </form>
+              </div>
+            </div>
+            <div class="lineB"></div>
+          <br><br>
+         
+          <div class="data">
+            <div class="second">
+              <div class=".sHead" style="background-color: #00614c; color: white; padding: 7px;">
+                <h6 style="font-weight: bold;">Data Realisasi Learning</h6>
+              <!-- <hr style="border: 3px solid #000000; margin: 0px; margin-left: -10px; margin-right: -10px;"> -->
+              </div>
+              
+              <button onclick="document.getElementById('id01').style.display='block'"  class="DRL">2021</button>
+              <div id="id01" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">2021</h2>
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 0704201</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 1060421</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 1525456</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 1010421</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 2026591</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 9532002</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id01').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            
+            
+
+
+
+            <div class="second">
+              <div class=".sHead" style="background-color: #00614c; color: white; padding: 7px;">
+                <h6 style="font-weight: bold;">Learning Report</h6>
+              <!-- <hr style="border: 3px solid #000000; margin: 0px; margin-left: -10px; margin-right: -10px;"> -->
+              </div>
+              <div class="sBottom" style="overflow: auto;">
+                
+              <button onclick="document.getElementById('id02').style.display='block'" class="DRL2">Learning Report 2021</button>
+              <div id="id02" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Learning Report 2021</h2>
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Edisi Januari - Maret 2021</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Edisi April 2021</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id02').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+
+              <button onclick="document.getElementById('id03').style.display='block'" class="DRL2">Learning Report 2020</button>
+              <div id="id03" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Learning Report 2020</h2>
+                    <span onclick="document.getElementById('id03').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Report Edisi Januari 2020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Report Edisi Febuari 2020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Report Edisi Maret 2020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Report Edisi April 2020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Report Edisi Mei s/d Juli 2020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Report Edisi Ags s/d Sep 2020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Report Edisi Okt sd Nov 2020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BCV Performance Report Edisi Desember 2020</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id03').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+             
+              <button onclick="document.getElementById('id04').style.display='block'" class="DRL2">Learning Report 2019</button>
+              <div id="id04" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Learning Report 2019</h2>
+                    <span onclick="document.getElementById('id04').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi Januari 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi Febuari 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi Maret 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi April 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi Mei 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi Juni 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi Juli sd September 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi Oktober 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi November 2019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Report Edisi Desember 2019</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id04').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+             
+              <button onclick="document.getElementById('id05').style.display='block'" class="DRL2">Learning Report 2018</button>
+              <div id="id05" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Learning Report 2018</h2>
+                    <span onclick="document.getElementById('id05').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning & Development Semi-Annual Report 2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Edisi Juli 2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Edisi Agustus 2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Edisi September 2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Edisi Oktober 2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Edisi November 2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">BNV Performance Edisi Desember 2018</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id05').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            </div>
+            
+            <div class="second">
+              <div class=".sHead" style="background-color: #00614c; color: white; padding: 7px;">
+                <h6 style="font-weight: bold;">Learning Game Digital Transformation Mindset</h6>
+              <!-- <hr style="border: 3px solid #000000; margin: 0px; margin-left: -10px; margin-right: -10px;"> -->
+              </div>
+              <div class="sBottom" style="margin-top: 30px;">
+
+                <button onclick="document.getElementById('id06').style.display='block'" class="LG">Report 2021</button>
+                <div id="id06" class="modal">
+                  <div class="modal-content" style="margin: auto; width: 700px;">
+                    <div class="modal-header">
+                      <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Report 2021</h2>
+                      <span onclick="document.getElementById('id06').style.display='none'" class="close">×</span>
+                    </div>
+                    <hr style="border: 3px solid #000000; margin: 0px;">
+                    <div class="modal-body">
+                      <div class="mbHead">
+                      <ul style="text-align: left;">
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Minggu IV Feb 2021</a></li>
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Minggu III Maret 2021</a></li>
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Minggu IV Maret 2021</a></li>
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Minggu V Maret 2021</a></li>
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Minggu I April 2021</a></li>
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Minggu IV April 2021</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button onclick="document.getElementById('id06').style.display='none'" class="closeMBtn">Close</button>
+                    </div>
+                  </div>
+                </div>
+                
+                <button onclick="document.getElementById('id07').style.display='block'" class="LG">Report 2020</button>
+                <div id="id07" class="modal">
+                  <div class="modal-content" style="margin: auto; width: 700px;">
+                    <div class="modal-header">
+                      <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;"> Report 2020</h2>
+                      <span onclick="document.getElementById('id07').style.display='none'" class="close">×</span>
+                    </div>
+                    <hr style="border: 3px solid #000000; margin: 0px;">
+                    <div class="modal-body">
+                      <div class="mbHead">
+                      <ul style="text-align: left;">
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Point & Ranking Tahap 1</a></li>
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Minggu II Desember 2020</a></li>
+                        <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Learning Game Minggu III Desember 2020</a></li>
+                      </ul>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button onclick="document.getElementById('id07').style.display='none'" class="closeMBtn">Close</button>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="data">
+            <div class="second">
+              <div class=".sHead" style="background-color: #00614c; color: white; padding: 7px;">
+                <h6 style="font-weight: bold;">Suplemen Pengetahuan</h6>
+              <!-- <hr style="border: 3px solid #000000; margin: 0px; margin-left: -10px; margin-right: -10px;"> -->
+              </div>
+
+              <button onclick="document.getElementById('id08').style.display='block'" class="DRL">2021</button>
+              <div id="id08" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">2021</h2>
+                    <span onclick="document.getElementById('id08').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">DASHBOARD</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Rekap Evaluasi Suplemen Pengetahuan 2021</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id08').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            <div class="second">
+              <div class=".sHead" style="background-color: #00614c; color: white; padding: 7px;">
+                <h6 style="font-weight: bold;">Data Realisasi Learning</h6>
+              <!-- <hr style="border: 3px solid #000000; margin: 0px; margin-left: -10px; margin-right: -10px;"> -->
+              </div>
+              
+              <button onclick="document.getElementById('id09').style.display='block'" class="DRL2">Data Realisasi e-Learning 2020</button>
+              <div id="id09" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Data Realisasi e-Learning 2020</h2>
+                    <span onclick="document.getElementById('id09').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 03032020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 12032020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 01042020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 06042020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 22042020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 01052020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 06052020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 15052020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 21052020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 14062020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 18062020</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 06072020</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id09').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+
+              <button onclick="document.getElementById('id10').style.display='block'" class="DRL2">Data Realisasi e-Learning HCMS 2019</button>
+              <div id="id10" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Data Realisasi e-Learning HCMS 2019</h2>
+                    <span onclick="document.getElementById('id10').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 14022019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 25022019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 30022019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 06032019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 22042019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 01052019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 06052019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 15052019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 21052019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 14062019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 18062019</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data Realisasi e-Learning Completed 06072019</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id10').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+
+              <button onclick="document.getElementById('id11').style.display='block'" class="DRL2">Data Realisasi SLIK & IDEB</button>
+              <div id="id11" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Data Realisasi SLIK & IDEB</h2>
+                    <span onclick="document.getElementById('id11').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">TARGET LEARNER SLIK & IDEB</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 15102018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 30102018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 23112018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 03122018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 22042018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 10122018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 12122018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 13122018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 14122018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data SLIK & IDEB Completed up to 21122018</a></li> 
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id11').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+
+              <button onclick="document.getElementById('id12').style.display='block'" class="DRL2">Data Realisasi e-Learning HCMS 2018</button>
+              <div id="id12" class="modal">
+                <div class="modal-content" style="margin: auto; width: 700px;">
+                  <div class="modal-header">
+                    <h2><img src="Asset/dummy-img.png" style="width: 25px; height: 25px; margin-right: 10px;">Data Realisasi e-Learning HCMS 2018</h2>
+                    <span onclick="document.getElementById('id12').style.display='none'" class="close">×</span>
+                  </div>
+                  <hr style="border: 3px solid #000000; margin: 0px;">
+                  <div class="modal-body">
+                    <div class="mbHead">
+                    <ul style="text-align: left;">
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 01-05-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 06-05-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 13-05-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 17-05-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 22-05-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 31-07-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 10-08-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 04-09-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 11-10-2018</a></li>
+                      <li><img src="Asset/icon/point.png" style="width: 9px; height: 9px; margin-right: 8px  ;margin-top: -2px;"><a href="#">Data e-learner HCMS completed up to 18-10-2018</a></li> 
+                    </ul>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button onclick="document.getElementById('id12').style.display='none'" class="closeMBtn">Close</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        </div>
+    <!-- Cont -->
+
+
+    <!-- Bot S -->
+    <div class="bottom">
+        <div class="bottom-text">Copyright 2021 © BNI Corporate University</div>
+    </div>
+    <!-- Bot E -->
+
+    <script src="modalReport.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
